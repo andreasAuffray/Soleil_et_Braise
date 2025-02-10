@@ -1,19 +1,36 @@
-body{
-    background-color: #2C2C2C;
 
-}
 
 .custom-navbar {
     background-color: #8B8B8B !important;
+    
+    
+    width: 60%; 
+    margin: 20px auto; 
+    border-radius: 20px; 
+    padding: 10px 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    background-color: rgba(255, 255, 255, 0.9); 
+    
+    
 }
 
-.custom-navbar .nav-link{
-    color : #C9A66B !important;
-
+.navbar-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around; 
 }
 
-.custom-navbar .navbar-brand{
-    color: #D63447 !important;
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fff; 
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.2rem;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
 }
 
 .voir_menu{
@@ -28,11 +45,64 @@ body{
     display: flex;
     justify-content: center;
 }
-
-h2{
-    color : #D63447;
+body {
+    background-color: #1b1b1b; 
+    color: #fff; 
+    font-family: 'Poppins', sans-serif;
 }
 
-h3{
-    color: #C9A66B;
+h2, h3 {
+    color: #ff7b00; 
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.card {
+    background: #2c2c2c; 
+    border: none;
+    border-radius: 15px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+.card-img-top {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.3rem;
+    color: #ffcc00; 
+    font-weight: bold;
+}
+
+.card-text {
+    color: #ccc;
+}
+
+.menu-section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.menu-section h3 {
+    margin-bottom: 30px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 20px;
+    }
 }
