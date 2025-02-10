@@ -28,3 +28,11 @@ body{
     display: flex;
     justify-content: center;
 }
+
+h2{
+    color : #D63447;
+}
+
+h3{
+    color: #C9A66B;
+}
