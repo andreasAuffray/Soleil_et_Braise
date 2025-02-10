@@ -1,0 +1,17 @@
+body{
+    background-color: #2C2C2C;
+
+}
+
+.custom-navbar {
+    background-color: #8B8B8B !important;
+}
+
+.custom-navbar .nav-link{
+    color : #C9A66B !important;
+
+}
+
+.custom-navbar .navbar-brand{
+    color: #D63447 !important;
+}
