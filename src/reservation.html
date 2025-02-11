@@ -35,5 +35,51 @@
             </div>
         </nav>
     </header>
+
+    <main>
+      <div class="container">
+          <div class="reservation-container">
+              <h2>Réserver une table</h2>
+              <form>
+                  <div class="mb-3">
+                      <label for="nom" class="form-label">Nom :</label>
+                      <input type="text" class="form-control" id="nom" required>
+                  </div>
+  
+                  <div class="mb-3">
+                      <label for="prenom" class="form-label">Prénom :</label>
+                      <input type="text" class="form-control" id="prenom" required>
+                  </div>
+  
+                  <div class="mb-3">
+                      <label for="email" class="form-label">Email :</label>
+                      <input type="email" class="form-control" id="email" required>
+                  </div>
+  
+                  <div class="mb-3">
+                      <label for="date" class="form-label">Date de réservation :</label>
+                      <input type="date" class="form-control" id="date" required>
+                  </div>
+
+                  <div class="mb-3">
+                      <label for="heure" class="form-label">Heure :</label>
+                      <input type="heure" class="form-control" id="email" required>
+                  </div>
+  
+                  <div class="mb-3">
+                      <label for="invite" class="form-label">Nombre d'invités :</label>
+                      <input type="number" class="form-control" id="invite" min="1" max="20" required>
+                  </div>
+  
+                  <div class="mb-3">
+                      <label for="message" class="form-label">Message (optionnel) :</label>
+                      <textarea class="form-control" id="message" rows="3"></textarea>
+                  </div>
+  
+                  <button type="submit" class="btn btn-reserver">Réserver</button>
+              </form>
+          </div>
+      </div>
+  </main>
 </body>
 </html>
