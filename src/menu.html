@@ -22,8 +22,15 @@
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="accueil.html">Accueil</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="menu.html">Menu</a>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="menu.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Menu
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#entrees">Entrées</a></li>
+                      <li><a class="dropdown-item" href="#plats">Plats</a></li>
+                      <li><a class="dropdown-item" href="#desserts">Desserts</a></li>
+                    </ul>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="reservation.html">Reservation</a>
@@ -35,11 +42,12 @@
         </nav>
     </header>
     <main>
+
         <div class="container mt-5">
             <h2 class="text-center mb-5">🔥 Notre Menu 🔥</h2>
     
             <!-- Entrées -->
-            <section class="menu-section">
+            <section class="menu-section" id="entrees">
                 <h3>Entrées</h3>
                 <div id="Entrées" class="row">
                     <div class="col-md-4">
@@ -73,7 +81,7 @@
             </section>
     
             <!-- Plats -->
-            <section class="menu-section">
+            <section class="menu-section" id="plats">
                 <h3>Plats</h3>
                 <div id="Plats" class="row">
                     <div class="col-md-4">
@@ -105,8 +113,8 @@
                     </div>
                 </div>
             </section>
-
-            <section class="menu-section">
+            <!---Desserts-->
+            <section class="menu-section" id="desserts">
                 <h3>Desserts</h3>
                 <div id="Desserts" class="row">
                     <div class="col-md-4">

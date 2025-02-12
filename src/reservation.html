@@ -11,30 +11,37 @@
     <title>Reservation</title>
 </head>
 <body>
-    <header >
-        <nav class="navbar navbar-expand-lg bg-body-tertiary custom-navbar">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="accueil.html">Soleil & Braise</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="accueil.html">Accueil</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="menu.html">Menu</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="reservation.html">Reservation</a>
-                  </li>
-                  
+  <header >
+    <nav class="navbar navbar-expand-lg bg-body-tertiary custom-navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Soleil & Braise</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="accueil.html">Accueil</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="menu.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Menu
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="menu.html.#entrees">Entrées</a></li>
+                  <li><a class="dropdown-item" href="menu.html.#plats">Plats</a></li>
+                  <li><a class="dropdown-item" href="menu.html.#desserts">Desserts</a></li>
                 </ul>
-              </div>
-            </div>
-        </nav>
-    </header>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="reservation.html">Reservation</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+    </nav>
+</header>
 
     <main>
       <div class="container">
@@ -81,5 +88,7 @@
           </div>
       </div>
   </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
