@@ -46,7 +46,7 @@
 </header>
 
     <main>
-      <div class="container">
+      <div class="container mt-5">
           <div class="reservation-container">
               <h2>Réserver une table</h2>
               <form>
@@ -84,9 +84,14 @@
                       <label for="message" class="form-label">Message (optionnel) :</label>
                       <textarea class="form-control" id="message" rows="3"></textarea>
                   </div>
-  
-                  <button type="submit" class="btn btn-reserver">Réserver</button>
-                  
+                  <div id="liveAlertPlaceholder"></div>
+                  <button onclick="reserver()" type="submit" class="btn btn-reserver">Réserver</button>
+
+                <script>
+                function reserver() {
+                   alert("Reservation faite");
+                }
+                </script>
               </form>
           </div>
       </div>
